@@ -1,8 +1,8 @@
-<img src="https://ui.decentraland.org/decentraland_256x256.png" height="128" width="128" />
+<img src="https://ipfs.io/ipfs/QmXA2DJM5zQR1gST6kb6rDgutbB7u7K9Me6sFhTL7E3zcw" height="128" width="128" />
 
 # Decentraland Connect
 
-Connect to the Ethereum network with ease
+Connect to the Ethereum/Matic network with ease
 
 # Table of content
 
