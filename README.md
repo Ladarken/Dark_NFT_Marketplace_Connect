@@ -1,6 +1,6 @@
 <img src="https://ipfs.io/ipfs/QmXA2DJM5zQR1gST6kb6rDgutbB7u7K9Me6sFhTL7E3zcw" />
 
-# Decentraland Connect
+# Dark_NFT_Marketplace_Connect
 
 Connect to the Ethereum/Matic network with ease
 
