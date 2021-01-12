@@ -209,7 +209,7 @@ import {
   ConnectionResponse,
   ProviderType,
   ChainId
-} from 'decentraland-connection'
+} from 'Dark_NFT_Marketplace-connection'
 
 async function connect() {
   let result: ConnectionResponse
