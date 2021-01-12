@@ -1,4 +1,4 @@
-<img src="https://ipfs.io/ipfs/QmXA2DJM5zQR1gST6kb6rDgutbB7u7K9Me6sFhTL7E3zcw" height="128" width="128" />
+<img src="https://ipfs.io/ipfs/QmXA2DJM5zQR1gST6kb6rDgutbB7u7K9Me6sFhTL7E3zcw" />
 
 # Decentraland Connect
 
