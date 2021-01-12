@@ -1,0 +1,1 @@
+{"version":3,"file":"InjectedConnector.js","sourceRoot":"","sources":["../../src/connectors/InjectedConnector.ts"],"names":[],"mappings":";;AAAA,uEAA2F;AAG3F,MAAa,iBAAkB,SAAQ,sCAAqB;IAC1D,YAAY,OAAgB;QAC1B,KAAK,CAAC;YACJ,iBAAiB,EAAE,CAAC,OAAO,CAAC;SAC7B,CAAC,CAAA;IACJ,CAAC;CACF;AAND,8CAMC"}

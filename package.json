@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      "decentraland-connect@1.8.0",
+      "C:\\Users\\Ladarken\\Documents\\Dark.Build\\Dark NFT Marketplace\\Dark_NFT_Marketplace_Dapp\\Dark_NFT_Marketplace_Dapp"
+    ]
+  ],
+  "_from": "decentraland-connect@1.8.0",
+  "_id": "decentraland-connect@1.8.0",
+  "_inBundle": false,
+  "_integrity": "sha512-MXgcZThxhr49j8IaHqu5zPCP6Gv/J67BCDoOJSAss9/fUmwr4IKpjXvr9Vg9taTHR7Sh1NowyMXMpFfh2W7dyA==",
+  "_location": "/decentraland-connect",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "decentraland-connect@1.8.0",
+    "name": "decentraland-connect",
+    "escapedName": "decentraland-connect",
+    "rawSpec": "1.8.0",
+    "saveSpec": null,
+    "fetchSpec": "1.8.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/decentraland-connect/-/decentraland-connect-1.8.0.tgz",
+  "_spec": "1.8.0",
+  "_where": "C:\\Users\\Ladarken\\Documents\\Dark.Build\\Dark NFT Marketplace\\Dark_NFT_Marketplace_Dapp\\Dark_NFT_Marketplace_Dapp",
+  "bugs": {
+    "url": "https://github.com/decentraland/decentraland-connect/issues"
+  },
+  "dependencies": {
+    "@types/node": "^10.1.2",
+    "@web3-react/fortmatic-connector": "^6.1.6",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/types": "^6.0.7",
+    "@web3-react/walletconnect-connector": "^6.1.6"
+  },
+  "description": "<img src=\"https://ui.decentraland.org/decentraland_256x256.png\" height=\"128\" width=\"128\" />",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/chai-as-promised": "^7.1.3",
+    "@types/mocha": "^5.2.7",
+    "@types/sinon": "^9.0.9",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "dcl-tslint-config-standard": "^1.0.1",
+    "husky": "^0.14.3",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "prettier": "^1.10.2",
+    "rimraf": "^2.6.3",
+    "semantic-release": "^17.3.0",
+    "sinon": "^9.2.2",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.10.0",
+    "tslint-language-service": "^0.9.9",
+    "tslint-plugin-prettier": "^1.3.0",
+    "typescript": "^3.5.2",
+    "validate-commit-message": "^3.0.1"
+  },
+  "homepage": "https://github.com/decentraland/decentraland-connect#readme",
+  "main": "dist",
+  "name": "decentraland-connect",
+  "nyc": {
+    "all": true,
+    "include": [
+      "src/**/*.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "reporter": [
+      "text-summary"
+    ],
+    "sourceMap": true,
+    "instrument": true
+  },
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true,
+    "semi": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentraland/decentraland-connect.git"
+  },
+  "scripts": {
+    "build": "npm run lint && npm run test && tsc --project tsconfig.json",
+    "commitmsg": "validate-commit-msg",
+    "lint": "tslint --project tsconfig.json -e '*.json' -c tslint.json 'src/**/*.ts{,x}'",
+    "prebuild": "rimraf dist",
+    "semantic-release": "semantic-release",
+    "test": "nyc mocha --require ts-node/register --project ./tsconfig.json --watch-files src, test/**/*.ts",
+    "test:report": "npx nyc --silent --no-clean npm run test && npx nyc report --reporter=lcov --reporter=text",
+    "test:watch": "npm test -- --watch"
+  },
+  "version": "1.8.0"
+}
