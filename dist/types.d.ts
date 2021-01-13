@@ -10,7 +10,8 @@ export declare enum ChainId {
     MAINNET = 1,
     ROPSTEN = 3,
     RINKEBY = 4,
-    KOVAN = 42
+    KOVAN = 42,
+    MATIC = 137
 }
 export declare type RequestArguments = {
     readonly method: string;

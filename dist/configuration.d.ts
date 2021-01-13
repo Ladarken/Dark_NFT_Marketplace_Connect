@@ -8,6 +8,7 @@ export declare function getConfiguration(): Readonly<{
             [ChainId.ROPSTEN]: string;
             [ChainId.RINKEBY]: string;
             [ChainId.KOVAN]: string;
+            [ChainId.MATIC]: string;
         };
     };
     wallet_connect: {
@@ -16,6 +17,7 @@ export declare function getConfiguration(): Readonly<{
             [ChainId.ROPSTEN]: string;
             [ChainId.RINKEBY]: string;
             [ChainId.KOVAN]: string;
+            [ChainId.MATIC]: string;
         };
     };
 }>;

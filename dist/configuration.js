@@ -9,7 +9,8 @@ const configuration = Object.freeze({
             [types_1.ChainId.MAINNET]: 'pk_live_D7297F51E9776DD2',
             [types_1.ChainId.ROPSTEN]: 'pk_test_198DDD3CA646DE2F',
             [types_1.ChainId.RINKEBY]: 'pk_test_198DDD3CA646DE2F',
-            [types_1.ChainId.KOVAN]: 'pk_test_198DDD3CA646DE2F'
+            [types_1.ChainId.KOVAN]: 'pk_test_198DDD3CA646DE2F',
+            [types_1.ChainId.MATIC]: 'pk_live_D7297F51E9776DD2'
         }
     },
     [types_1.ProviderType.WALLET_CONNECT]: {
@@ -17,7 +18,8 @@ const configuration = Object.freeze({
             [types_1.ChainId.MAINNET]: 'https://mainnet.mycustomnode.com',
             [types_1.ChainId.ROPSTEN]: 'https://ropsten.mycustomnode.com',
             [types_1.ChainId.RINKEBY]: 'https://ropsten.mycustomnode.com',
-            [types_1.ChainId.KOVAN]: 'https://ropsten.mycustomnode.com'
+            [types_1.ChainId.KOVAN]: 'https://ropsten.mycustomnode.com',
+            [types_1.ChainId.MATIC]: 'https://rpc-mainnet.matic.network'
         }
     }
 });

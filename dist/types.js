@@ -12,5 +12,6 @@ var ChainId;
     ChainId[ChainId["ROPSTEN"] = 3] = "ROPSTEN";
     ChainId[ChainId["RINKEBY"] = 4] = "RINKEBY";
     ChainId[ChainId["KOVAN"] = 42] = "KOVAN";
+    ChainId[ChainId["MATIC"] = 137] = "MATIC";
 })(ChainId = exports.ChainId || (exports.ChainId = {}));
 //# sourceMappingURL=types.js.map

@@ -13,7 +13,8 @@ describe('#getConfiguration', () => {
           [ChainId.MAINNET]: 'pk_live_D7297F51E9776DD2',
           [ChainId.ROPSTEN]: 'pk_test_198DDD3CA646DE2F',
           [ChainId.RINKEBY]: 'pk_test_198DDD3CA646DE2F',
-          [ChainId.KOVAN]: 'pk_test_198DDD3CA646DE2F'
+          [ChainId.KOVAN]: 'pk_test_198DDD3CA646DE2F',
+          [ChainId.MATIC]: 'pk_live_D7297F51E9776DD2'
         }
       },
       [ProviderType.WALLET_CONNECT]: {
@@ -21,7 +22,8 @@ describe('#getConfiguration', () => {
           [ChainId.MAINNET]: 'https://mainnet.mycustomnode.com',
           [ChainId.ROPSTEN]: 'https://ropsten.mycustomnode.com',
           [ChainId.RINKEBY]: 'https://ropsten.mycustomnode.com',
-          [ChainId.KOVAN]: 'https://ropsten.mycustomnode.com'
+          [ChainId.KOVAN]: 'https://ropsten.mycustomnode.com',
+          [ChainId.MAITC]: 'https://rpc-mainnet.matic.network'
         }
       }
     })
