@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "dark-nft-marketplace-connecet@0.0.1",
-      "C:\\Users\\Ladarken\\Documents\\Dark.Build\\Dark NFT Marketplace\\Dark_NFT_Marketplace_Dapp\\Dark_NFT_Marketplace_Dapp"
+      "dark-nft-marketplace-connecet@0.0.2",
+      "C:\\Users\\Ladarken\\Documents\\Dark.Build\\Dark NFT Marketplace\\Dark_NFT_Marketplace_Dapp\\Dark_Connect\\Dark_NFT_Marketplace_Connect"
     ]
   ],
-  "_from": "dark-nft-marketplace-connecet@0.0.1",
-  "_id": "dark-nft-marketplace-connecet@0.0.1",
+  "_from": "dark-nft-marketplace-connecet@0.0.2",
+  "_id": "dark-nft-marketplace-connecet@0.0.2",
   "_inBundle": false,
   "_integrity": "sha512-MXgcZThxhr49j8IaHqu5zPCP6Gv/J67BCDoOJSAss9/fUmwr4IKpjXvr9Vg9taTHR7Sh1NowyMXMpFfh2W7dyA==",
   "_location": "/dark-nft-marketplace-connecet",
@@ -14,19 +14,19 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "dark-nft-marketplace-connecet@0.0.1",
+    "raw": "dark-nft-marketplace-connecet@0.0.2",
     "name": "dark-nft-marketplace-connecet",
     "escapedName": "dark-nft-marketplace-connecet",
-    "rawSpec": "0.0.1",
+    "rawSpec": "0.0.2",
     "saveSpec": null,
-    "fetchSpec": "0.0.1"
+    "fetchSpec": "0.0.2"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/dark-nft-marketplace-connecet/-/dark-nft-marketplace-connecet-0.0.1.tgz",
-  "_spec": "0.0.1",
-  "_where": "C:\\Users\\Ladarken\\Documents\\Dark.Build\\Dark NFT Marketplace\\Dark_NFT_Marketplace_Dapp\\Dark_NFT_Marketplace_Dapp",
+  "_resolved": "https://registry.npmjs.org/dark-nft-marketplace-connecet/-/dark-nft-marketplace-connecet-0.0.2.tgz",
+  "_spec": "0.0.2",
+  "_where": "C:\\Users\\Ladarken\\Documents\\Dark.Build\\Dark NFT Marketplace\\Dark_NFT_Marketplace_Dapp\\Dark_Connect\\Dark_NFT_Marketplace_Connect",
   "bugs": {
     "url": "https://github.com/Ladarken/Dark_NFT_Marketplace_Connect/issues"
   },
@@ -97,5 +97,5 @@
     "test:report": "npx nyc --silent --no-clean npm run test && npx nyc report --reporter=lcov --reporter=text",
     "test:watch": "npm test -- --watch"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
